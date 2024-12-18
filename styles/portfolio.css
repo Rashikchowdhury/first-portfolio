@@ -128,13 +128,14 @@ main {
 
 .about-info-container {
     display: flex;
+    justify-content: space-around;
 }
 
 .about-info {
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
     color: #474747;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #what-i-do {
