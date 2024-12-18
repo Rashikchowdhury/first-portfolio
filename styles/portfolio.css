@@ -91,17 +91,23 @@ nav a {
     margin-bottom: 30px;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 .about {
     border-radius: 10px;
     background: #FFF8F3;
     color: #181818;
     text-align: center;
-    max-width: 1140px;
-    padding: 210px 155px;
-    margin: 130px 230px;
+    /* padding: 210px 155px; */
+    padding: 130px;
+    margin: 130px 0px;
+    max-height: 550px;
 }
 
-.about-title {
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -115,4 +121,15 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+}
+
+.about-info {
+    text-align: center;
+    margin: auto;
+    color: #474747;
+    font-size: 20px;
 }
