@@ -273,3 +273,27 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 412px) {
+    #what-i-do{
+        padding: 10px;
+    }
+
+    .skills-container{
+        flex-direction: column;
+    }
+
+    .skills-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills{
+        padding: 50px;
+        margin-bottom: 10px;
+    }
+}
